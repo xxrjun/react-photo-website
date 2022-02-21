@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-photo-website/static/css/main.631244a1.css",
-    "main.js": "/react-photo-website/static/js/main.6e7c8e3c.js",
-    "index.html": "/react-photo-website/index.html",
-    "main.631244a1.css.map": "/react-photo-website/static/css/main.631244a1.css.map",
-    "main.6e7c8e3c.js.map": "/react-photo-website/static/js/main.6e7c8e3c.js.map"
+    "main.css": "/react-photo-website-infinite-scroll/static/css/main.631244a1.css",
+    "main.js": "/react-photo-website-infinite-scroll/static/js/main.e61b6666.js",
+    "index.html": "/react-photo-website-infinite-scroll/index.html",
+    "main.631244a1.css.map": "/react-photo-website-infinite-scroll/static/css/main.631244a1.css.map",
+    "main.e61b6666.js.map": "/react-photo-website-infinite-scroll/static/js/main.e61b6666.js.map"
   },
   "entrypoints": [
     "static/css/main.631244a1.css",
-    "static/js/main.6e7c8e3c.js"
+    "static/js/main.e61b6666.js"
   ]
 }
