@@ -7,10 +7,10 @@ const Nav = () => {
       <h1>Photo Website Project - Pexels API</h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/react-photo-website-infinite-scroll/">Home</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/react-photo-website-infinite-scroll/about">About</Link>
         </li>
       </ul>
     </nav>
