@@ -7,8 +7,16 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/react-photo-website/" exact element={<Homepage />} />
-        <Route path="/react-photo-website/about" exact element={<About />} />
+        <Route
+          path="/react-photo-website-infinite-scroll/"
+          exact
+          element={<Homepage />}
+        />
+        <Route
+          path="/react-photo-website-infinite-scroll/about"
+          exact
+          element={<About />}
+        />
       </Routes>
     </div>
   );
