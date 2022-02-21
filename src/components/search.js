@@ -12,7 +12,7 @@ const search = ({ setQuery, setPictures, setPageNumber }) => {
   };
 
   return (
-    <div>
+    <div className="search">
       <input onChange={inputHandler} type="text" />
       <button onClick={clickHandler}>SEARCH</button>
     </div>
