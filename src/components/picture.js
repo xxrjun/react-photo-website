@@ -1,6 +1,6 @@
 import React from "react";
 
-const picture = ({ picture }) => {
+const Picture = ({ picture }) => {
   return (
     <div>
       <p>{picture.photographer}</p>
@@ -17,4 +17,4 @@ const picture = ({ picture }) => {
   );
 };
 
-export default picture;
+export default Picture;

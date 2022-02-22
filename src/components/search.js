@@ -1,6 +1,12 @@
 import React from "react";
 
-const search = ({ setQuery, setPictures, setPageNumber }) => {
+const Search = ({
+  query,
+  setQuery,
+  setCurrentQuery,
+  setPictures,
+  setPageNumber,
+}) => {
   const inputHandler = (e) => {
     console.log(e.target.value);
     setQuery(e.target.value);
@@ -9,6 +15,7 @@ const search = ({ setQuery, setPictures, setPageNumber }) => {
   const clickHandler = (e) => {
     setPictures([]);
     setPageNumber(1);
+    setCurrentQuery(query);
   };
 
   return (
@@ -19,4 +26,4 @@ const search = ({ setQuery, setPictures, setPageNumber }) => {
   );
 };
 
-export default search;
+export default Search;
