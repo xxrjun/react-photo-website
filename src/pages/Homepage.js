@@ -52,7 +52,7 @@ const Homepage = () => {
     getData(initialUrl);
   }, []);
 
-  // load more pictures
+  // load more pictures or search pictures
   useEffect(() => {
     if (currentQuery === "") {
       getData(initialUrl);
@@ -66,7 +66,7 @@ const Homepage = () => {
   const lastPictureElement = useCallback(
     (node) => {
       if (loading) return; // avoid repeat api request
-      if (observer.current) observer.current.disconnect();
+      if (observer.current) observer.current.disconnect(); // disconnect current last element observer
       observer.current = new IntersectionObserver((entries) => {
         if (entries[0].isIntersecting && hasMore) {
           setPageNumber((prevPageNumber) => prevPageNumber + 1);
