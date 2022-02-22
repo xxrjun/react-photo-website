@@ -14,6 +14,11 @@ If you don't know how to deploy a react app to Github Pages, you can go visiting
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit the [Create React App documentation](https://facebook.github.io/create-react-app/docs/) for more information about the bootstrapping process and scripts create-react-app offers
 
+## Learn from
+**Project** : [**2022網頁開發全攻略(HTML, CSS, JavaScript, React, SQL, Node, more)**](https://www.udemy.com/course/html5-css3-z/)
+
+**Infinite Scroll** : [**Infinite Scrolling With React - Tutorial**](https://www.youtube.com/watch?v=NZKUirTtxcg&t=1117s)
+
 ## Installation
 
 Clone this repository onto your local machine and then install all dependencies using the NPM package manager by running this command in your CLI from the repo root directory:
