@@ -47,10 +47,12 @@ const Homepage = () => {
     controller.abort();
   };
 
+  // first loading
   useEffect(() => {
     getData(initialUrl);
   }, []);
 
+  // load more pictures
   useEffect(() => {
     if (currentQuery === "") {
       getData(initialUrl);
@@ -59,7 +61,7 @@ const Homepage = () => {
     }
   }, [currentQuery, pageNumber]);
 
-  // load more pictures
+  // observe last element and using callback function to update pageNumber if hasMore and isIntersecting
   const observer = useRef();
   const lastPictureElement = useCallback(
     (node) => {
