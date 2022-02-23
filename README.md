@@ -6,7 +6,7 @@ A infinite scrolling photo website build with React that lets you search for Pex
 
 This project uses [Pexels API](https://www.pexels.com/api/) and [Axios](https://axios-http.com/) module to fetch photos.
 
-Using [Intersection_Observer_API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to make a infinite scroll funciton
+Using [Intersection_Observer_API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to make infinite scroll.
 
 You can check out the live project ([Github Pages](https://pages.github.com/)) by clicking [here](https://xxrjun.github.io/react-photo-website-infinite-scroll/).  
 
