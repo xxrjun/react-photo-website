@@ -8,7 +8,7 @@ This project uses [Pexels API](https://www.pexels.com/api/) and [Axios](https://
 
 Using [Intersection_Observer_API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) to make infinite scroll.
 
-Check out the live project ([Github Pages](https://pages.github.com/)) by clicking [here](https://xxrjun.github.io/react-photo-website-infinite-scroll/).  
+Check out the live project ([Github Pages](https://pages.github.com/)) by clicking [React Photo Website](https://xxrjun.github.io/react-photo-website/).  
 
 If you don't know how to deploy a react app to Github Pages, you can go visiting [Deploying a React App to GitHub Pages](https://github.com/gitname/react-gh-pages) , it shows you how you can create a React app and deploy it to GitHub Pages.
 
