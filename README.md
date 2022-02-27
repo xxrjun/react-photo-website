@@ -1,4 +1,4 @@
-# React Photo Website - Pexels API
+## React Photo Website - Pexels API
 
 A infinite scrolling photo website build with React that lets you search for Pexels photots and show curated photos as default. 
 
@@ -14,13 +14,13 @@ If you don't know how to deploy a react app to Github Pages, you can go visiting
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Visit the [Create React App documentation](https://facebook.github.io/create-react-app/docs/) for more information about the bootstrapping process and scripts create-react-app offers
 
-# Learn From
+## Learn From
 **Project** : [**2022網頁開發全攻略(HTML, CSS, JavaScript, React, SQL, Node, more)**](https://www.udemy.com/course/html5-css3-z/)
 
 **Infinite Scroll** : [**Infinite Scrolling With React - Tutorial**](https://www.youtube.com/watch?v=NZKUirTtxcg&t=1117s)
 
-# What I Learned From This Project
-
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments I Learned From This Project
 - [Axios](https://axios-http.com/)
 - [React Router v6](https://reactrouter.com/docs/en/v6)
 - [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
