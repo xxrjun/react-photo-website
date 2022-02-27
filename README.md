@@ -18,10 +18,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **Project** : [**2022網頁開發全攻略(HTML, CSS, JavaScript, React, SQL, Node, more)**](https://www.udemy.com/course/html5-css3-z/)
 
 **Infinite Scroll** : [**Infinite Scrolling With React - Tutorial**](https://www.youtube.com/watch?v=NZKUirTtxcg&t=1117s)
-
-
-# Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
