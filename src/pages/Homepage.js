@@ -50,6 +50,8 @@ const Homepage = () => {
   // first loading
   useEffect(() => {
     getData(initialUrl);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // load more pictures or search pictures
@@ -59,6 +61,7 @@ const Homepage = () => {
     } else {
       getData(searchUrl);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentQuery, pageNumber]);
 
   // observe last element and using callback function to update pageNumber if hasMore and isIntersecting
